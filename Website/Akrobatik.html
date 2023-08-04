@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body {
+            background:url("http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/tiny_grid.png");
+            background-color: lightgray;
+        }
+
+        .main-container {
+            width: 600px;
+            margin: 0 auto;
+            position:absolute;
+            right: 45%;
+            
+        }
+
+        .headline {
+            display: inline-block;
+            margin: 40px 0;
+            padding: 0 30px;
+            font: normal 33px/1.1 Georgia, "Times New Roman", Times, serif;
+            color: #3E3E3E;
+            height: 1px;
+            border-left: 300px solid #aaa;
+            border-right: 300px solid #aaa;
+            white-space: nowrap;
+        }
+
+        .headline > span {
+            display:block;
+            margin-top:-17px;
+        }
+      
+        
+        #video1{
+            position:absolute;
+            top: 15%;
+            left: 15%;
+            margin: 10px;
+        }
+
+        #video2{
+            position: absolute;
+            top: 40%;
+            left: 15%;
+            margin: 10px;
+        }
+       
+    </style>
+</head>
+<body>
+    
+    <div class="main-container">
+        <h1 class="headline"><span>Akrobatik</span></h1>
+    </div>
+
+   <div class="video-container">
+    <video id="video1" width="350" height="300"  controls>
+        <source src="/Videos/Video Akrobatik Griffe.mp4" type=video/mp4>
+    
+    </video>
+    <video id="video2" width="350" height="300" controls>
+        <source src="/Videos/Video Akrobatik.mp4" type=video/mp4>    
+    </video>
+   </div>
+</body>
+</html>
